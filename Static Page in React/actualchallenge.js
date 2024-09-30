@@ -11,10 +11,7 @@ Hints:
 const page = (
     <div>
             <img src="./reactlogo.png" width="40px"></img>
-        
-        
             <h1><b>Fun Facts about React</b></h1>
-           
             <ul>
                 <li>Was first deployed in 2013</li>
                 <li>Has over 100k GitHub stars</li>
@@ -22,8 +19,6 @@ const page = (
                 <li>Is maintained by Facebook</li>  
                 <li>Power thousands of enterprises apps</li>
             </ul>
-            
-        
     </div>
 )
 

@@ -9,13 +9,8 @@ I'm excited to learn React"). Place it above the ordered list. Add a footer' aft
 function  App() {
     return (
         <div> 
-             <header>
-                <nav className="nav-bar">
-                    <img src="reactlogo.png" ></img>
-                    <h1 id="heading">Reasons I'm excited to learn React</h1>
-                </nav>
-            </header>
-            <section >
+            <HeadIng/>
+            <section>
                 <ul className="list">
                     <li>declarative</li>
                     <li>Components</li>
@@ -23,8 +18,34 @@ function  App() {
                     <li>fast</li>
                 </ul>
             </section>
+            <Footer/>
         </div>
     )
 }
 
+function HeadIng(){
+    return (
+        <header>
+            <nav className="nav-bar">
+                <div className="logo">
+                <img src="reactlogo.png" ></img>
+                <h1 id="heading">Reasons I'm excited to learn React</h1>
+                </div>
+                <div className="but">
+                <button id="but1">Pricing</button>
+                <button id="but1">About</button>
+                <button id="but1">Contact</button>
+                </div>
+            </nav>
+        </header>
+    )
+}
+
+function Footer(){
+    return (
+        <footer className="foot">
+            <h3>2024 4bhimxnyu development. All rights reserved.</h3>
+        </footer>
+    )
+}
 ReactDOM.render(<App/>,document.getElementById("root"))
