@@ -9,8 +9,9 @@ body{
 
 .nav-bar{
     display: flex;
-    align-items: left;
+    justify-content: left;
     height: 100px;
+
 }
 
 .main-content{
@@ -20,4 +21,15 @@ body{
 
 #bullet{
     align-items: left;
+}
+
+#heading{
+    margin-top: 32px;
+    font-size: 30px;
+}
+
+.list{
+    margin-left: 40px;
+    align-items: left;
+    font-size: 20px;
 }
