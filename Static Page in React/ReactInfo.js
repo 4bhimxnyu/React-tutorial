@@ -37,7 +37,7 @@ function  Body(){
 
 function Footer(){
     return(
-        <footer>
+        <footer className="foot">
             <h3 ><small>2024 4bhimxnyu development. All rights reserved.</small></h3>
         </footer>
     )
