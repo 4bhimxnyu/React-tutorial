@@ -10,41 +10,39 @@ function  App() {
     return (
         <div> 
             <HeadIng/>
-            <section>
+            <Section/>
+            <Footer/>
+        </div>
+    )
+}
+
+function Section(){
+    return(
+        <div>
+            <h1>Reasons I'm excited to learn React</h1>
                 <ul className="list">
                     <li>declarative</li>
                     <li>Components</li>
                     <li>Easy</li>
                     <li>fast</li>
                 </ul>
-            </section>
-            <Footer/>
-        </div>
+         </div>
     )
 }
 
 function HeadIng(){
     return (
-        <header className="nav-bar">
-            <nav >
-                <div className="logo">
-                <img src="reactlogo.png" ></img>
-                <h1 id="heading">Reasons I'm excited to learn React</h1>
-                </div>
-                <div className="but">
-                <button id="but1">Pricing</button>
-                <button id="but1">About</button>
-                <button id="but1">Contact</button>
-                </div>
-            </nav>
-        </header>
+        <div>
+            <img src="reactlogo.png" ></img>
+            
+         </div>
     )
 }
 
 function Footer(){
     return (
-        <footer className="foot">
-            <h3>2024 4bhimxnyu development. All rights reserved.</h3>
+        <footer>
+            <h3><small>2024 4bhimxnyu development. All rights reserved.</small></h3>
         </footer>
     )
 }
