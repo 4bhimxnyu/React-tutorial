@@ -25,8 +25,8 @@ function  App() {
 
 function HeadIng(){
     return (
-        <header>
-            <nav className="nav-bar">
+        <header className="nav-bar">
+            <nav >
                 <div className="logo">
                 <img src="reactlogo.png" ></img>
                 <h1 id="heading">Reasons I'm excited to learn React</h1>
