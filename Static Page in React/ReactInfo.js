@@ -9,9 +9,9 @@ I'm excited to learn React"). Place it above the ordered list. Add a footer' aft
 function Heading(){
     return(
         <header>
-            <nav>
+            <nav className="nav">
                 <img  src="reactlogo.png" width="100px" ></img>
-                <ul>
+                <ul className="nav-list">
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact</li>
@@ -23,7 +23,7 @@ function Heading(){
 
 function  Body(){
     return(
-        <div>
+        <div className="Body-ele">
             <h1>Reasons I'm excited to learn React</h1>
             <ul>
                 <li>Easy to learn</li>

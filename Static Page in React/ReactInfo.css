@@ -2,4 +2,26 @@
     margin: 0;
     padding: 0;
 }
+ 
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-list > li {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.Body-ele{
+ margin-left: 20px;
+}
 
